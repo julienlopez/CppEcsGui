@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ecs/component.hpp"
+#include "ecs/components/component.hpp"
 
 #include <memory>
 #include <vector>
@@ -8,8 +8,11 @@
 namespace Ecs
 {
 
+class EntityManager;
+
 class Entity
 {
+    friend class EntityManager;
 
 public:
     using type_key = Component::type_key;
