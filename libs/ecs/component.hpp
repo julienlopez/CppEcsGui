@@ -7,14 +7,14 @@ namespace Ecs
 
 class Component
 {
-public:
 
-    using type_key = std::size_t;
-
+protected:
     Component();
 
-    type_key key() const;
+public:
+    using type_key = std::size_t;
 
+    type_key key() const;
 };
 
 } // Ecs

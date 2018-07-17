@@ -10,10 +10,10 @@ namespace Ecs
 //     if(id >= m_containr.size()) return 0;
 //     return m_containr[id]();
 // }
-// 
+//
 // //#include <iostream>
 // // using namespace std;
-// 
+//
 // ComponentFactory::type_key ComponentFactory::registerProduct(type_callback creator)
 // {
 //     type_key res = m_containr.size();
